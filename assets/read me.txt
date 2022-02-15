@@ -1,0 +1,14 @@
+Google Fonts:
+
+1. Fira Sans
+2. Pontano Sans
+3. Libre Franklin
+
+color code:
+
+1. #F7AB48 (logo)
+2. #FF424D
+3. #4CB7D8
+4. #FEEFDC
+
+ 
