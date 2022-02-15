@@ -1,0 +1,23 @@
+.logo-heading {
+  text-align: center;
+  display: inline;
+  position: relative;
+  top: 4px;
+  left: 6px;
+  color: #f7ab48;
+  font-family: "fira-heading";
+}
+.navbar {
+  background-color: #252f37 !important;
+  border-bottom: 1px solid white;
+}
+.nav-item,
+.nav-link {
+  color: #dd444d !important;
+  padding-left: 30px;
+  margin-top: 6px;
+  font-family: ponato;
+}
+.header {
+  margin-top: 20px;
+}

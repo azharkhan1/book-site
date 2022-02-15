@@ -1,0 +1,18 @@
+.table {
+  color: #ff424d !important;
+  font-family: "fira";
+  background-color: #feefdc !important;
+  border-radius: 10px;
+}
+
+.primary {
+  background-color: #feefdc !important;
+}
+.white {
+  background-color: white;
+}
+.table-row {
+  color: #4cb7d8;
+  font-family: "fira-heading";
+  margin: 0 auto;
+}

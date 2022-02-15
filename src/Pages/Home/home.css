@@ -1,0 +1,125 @@
+.logo-heading {
+  text-align: center;
+  display: inline;
+  position: relative;
+  top: 4px;
+  left: 6px;
+  color: #f7ab48;
+}
+
+.main {
+  background-color: #252f37 !important;
+}
+.main__container {
+  background-color: #252f37 !important;
+}
+.section-image {
+  width: 100%;
+  height: 350px;
+}
+.main__section {
+  margin-top: 50px;
+}
+.main-section-heading {
+  color: #4cb7d8;
+  margin-top: 50px;
+  font-family: "fira";
+}
+.main__section__heading__container {
+  text-align: center;
+}
+.main-section-paragraph-container {
+  text-align: initial;
+  line-height: 1.9;
+  margin-top: 15px;
+  text-align: initial;
+}
+.main-section-paragraph {
+  color: #f7ab48;
+  text-align: initial;
+  font-family: "ponato";
+}
+
+.myButton {
+  box-shadow: 4px 1px 12px 0px #d90b0b;
+  background-color: transparent;
+  border: 1px solid #feefdc;
+  display: inline-block;
+  cursor: pointer;
+  color: #4cb7d8;
+  font-family: Arial;
+  font-size: 25px;
+  padding: 2px 51px;
+  text-decoration: none;
+  text-shadow: -2px 1px 9px #feefdc;
+  background-color: #feefdc;
+  font-family: "fira";
+  font-weight: bold;
+}
+
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+a,
+a:hover {
+  color: #4cb7d8;
+}
+.search__section {
+  margin-top: 60px;
+}
+
+.search__heading {
+  color: #dd444d !important;
+  font-family: "ponato";
+}
+.search__result {
+  margin-top: 30px;
+}
+
+select {
+  /* Reset Select */
+  appearance: none;
+  outline: 0;
+  border: 0;
+  box-shadow: none;
+  /* Personalize */
+  flex: 1;
+  padding: 0 1em;
+  color: "black";
+  background-image: none;
+  cursor: pointer;
+}
+/* Remove IE arrow */
+select::-ms-expand {
+  display: none;
+}
+/* Custom Select wrapper */
+.select {
+  position: relative;
+  display: flex;
+  width: 15em;
+  height: 3em;
+  border-radius: 0.25em;
+  overflow: hidden;
+  background-color: #feefdc;
+  color: "#feefdc";
+}
+.select select {
+  background-color: #feefdc;
+}
+/* Arrow */
+.select::after {
+  content: "\25BC";
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 1em;
+  background-color: #feefdc;
+  transition: 0.25s all ease;
+  pointer-events: none;
+}
+/* Transition */
+.select:hover::after {
+  color: black;
+}
